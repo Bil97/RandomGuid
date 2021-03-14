@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RandomGuid.WPF"
-        mc:Ignorable="d" Topmost="True"
+        mc:Ignorable="d"
         Title="Random Guid" Height="450" Width="800" MinWidth="250">
     <StackPanel HorizontalAlignment="Stretch" VerticalAlignment="Center">
         <TextBox x:Name="GuidTextBox" HorizontalAlignment="Stretch" TextWrapping="Wrap" />
