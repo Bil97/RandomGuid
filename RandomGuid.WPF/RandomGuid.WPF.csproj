@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>RandomGuid</AssemblyName>
+    <RootNamespace>RandomGuid</RootNamespace>
+    <Company>ThingLing</Company>
+    <Authors>Bil Ly</Authors>
+    <Product>Random Guid</Product>
+    <Description>Generates random strings</Description>
+    <PackageLicenseFile>licence.txt</PackageLicenseFile>
+    <Copyright>Copyright ©  2021</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>D:\Programming\Projects\ThingLing\ThingLingExe\RanddomGuid</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>D:\Programming\Projects\ThingLing\ThingLingExe\RanddomGuid</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="XamlNameReferenceGenerator" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\Programming\Projects\ThingLing\ThinglingLib\licence.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
