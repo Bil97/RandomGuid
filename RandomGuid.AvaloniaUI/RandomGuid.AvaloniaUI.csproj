@@ -9,6 +9,8 @@
     <Copyright>Copyright ©  2021</Copyright>
     <Authors>Bil Ly</Authors>
     <Company>ThingLing</Company>
+    <RepositoryUrl>https://github.com/Bil97/RandomGuid</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Bil97/RandomGuid</PackageProjectUrl>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <OutputPath>D:\Programming\Projects\ThingLing\ThingLingExe\RanddomGuid</OutputPath>

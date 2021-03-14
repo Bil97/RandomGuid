@@ -12,6 +12,8 @@
     <Description>Generates random strings</Description>
     <PackageLicenseFile>licence.txt</PackageLicenseFile>
     <Copyright>Copyright ©  2021</Copyright>
+    <PackageProjectUrl>https://github.com/Bil97/RandomGuid</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Bil97/RandomGuid</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
