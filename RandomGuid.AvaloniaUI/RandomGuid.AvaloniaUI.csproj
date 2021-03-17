@@ -11,6 +11,7 @@
     <Company>ThingLing</Company>
     <RepositoryUrl>https://github.com/Bil97/RandomGuid</RepositoryUrl>
     <PackageProjectUrl>https://github.com/Bil97/RandomGuid</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <OutputPath>D:\Programming\Projects\ThingLing\ThingLingExe\RanddomGuid</OutputPath>
@@ -22,12 +23,15 @@
     <PackageReference Include="Avalonia" Version="0.10.0" />
     <PackageReference Include="Avalonia.Desktop" Version="0.10.0" />
     <PackageReference Include="Avalonia.Diagnostics" Version="0.10.0" />
-    <PackageReference Include="XamlNameReferenceGenerator" Version="1.1.2" />
    </ItemGroup>
   <ItemGroup>
     <None Include="D:\Programming\Projects\ThingLing\ThingLingExe\licence.txt">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+    <AvaloniaResource Include="icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </AvaloniaResource>
   </ItemGroup>
 </Project>

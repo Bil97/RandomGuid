@@ -11,24 +11,24 @@ namespace RandomGuid.Mobile
             InitializeComponent();
         }
 
-        //private void NewGuidButton_Clicked(object sender, EventArgs e)
-        //{
-        //    GuidTextBox.Text = Guid.NewGuid().ToString();
-        //}
+        private void NewGuidButton_Clicked(object sender, EventArgs e)
+        {
+            GuidEditor.Text = Guid.NewGuid().ToString();
+        }
 
-        //private void AppendGuidButton_Clicked(object sender, EventArgs e)
-        //{
-        //    GuidTextBox.Text += Guid.NewGuid().ToString();
-        //}
+        private void AppendGuidButton_Clicked(object sender, EventArgs e)
+        {
+            GuidEditor.Text += Guid.NewGuid().ToString();
+        }
 
-        //private void CopyGuidButton_Clicked(object sender, EventArgs e)
-        //{
-        //    Clipboard.SetTextAsync(GuidTextBox.Text);
-        //}
+        private void CopyGuidButton_Clicked(object sender, EventArgs e)
+        {
+            Clipboard.SetTextAsync(GuidEditor.Text);
+        }
 
-        //private void ClearGuidTextBoxButton_Clicked(object sender, EventArgs e)
-        //{
-        //    GuidTextBox.Text = string.Empty;
-        //}
+        private void ClearGuidEditorButton_Clicked(object sender, EventArgs e)
+        {
+            GuidEditor.Text = string.Empty;
+        }
     }
 }

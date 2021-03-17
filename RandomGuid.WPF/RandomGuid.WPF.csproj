@@ -14,6 +14,7 @@
     <Copyright>Copyright ©  2021</Copyright>
     <PackageProjectUrl>https://github.com/Bil97/RandomGuid</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Bil97/RandomGuid</RepositoryUrl>
+    <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -33,6 +34,10 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+    <Resource Include="icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </Resource>
   </ItemGroup>
 
 </Project>
