@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RandomGuid.Mobile.MainPage">
+
+    <StackLayout HorizontalOptions="Fill" VerticalOptions="Center" Background="Black">
+        <Editor x:Name="GuidEditor" HorizontalOptions="Fill" />
+        <Button Text="Hello" BackgroundColor="Blue"/>
+        <!--<StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="10">
+            <Button x:Name="NewGuidButton" Text="New" ToolTipService.ToolTip="New random text"
+                    Clicked="NewGuidButton_Clicked"/>
+            <Button x:Name="AppendGuidButton" Text="Append"  ToolTipService.ToolTip="Add random text to the currently available"
+                    Clicked="AppendGuidButton_Clicked"/>
+            <Button x:Name="CopyGuidButton" Text="Copy" 
+                    ToolTipService.ToolTip="Copy to clipboard" Clicked="CopyGuidButton_Clicked"/>
+            <Button x:Name="ClearGuidTextBoxButton" Text="Clear"
+                    ToolTipService.ToolTip="Clear textbox" Clicked="ClearGuidTextBoxButton_Clicked"/>-->
+        <!--</StackLayout>-->
+    </StackLayout>
+
+</ContentPage>
